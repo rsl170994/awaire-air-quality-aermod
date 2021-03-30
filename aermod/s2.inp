@@ -1,0 +1,10 @@
+JOB
+    REPORT     s2.RPT
+    MESSAGES   s2.MSG
+
+ONSITE
+    QAOUT      ONSITE.OQA
+
+MERGE
+    OUTPUT     MR.MET
+    XDATES     17/7/12 TO 17/7/12

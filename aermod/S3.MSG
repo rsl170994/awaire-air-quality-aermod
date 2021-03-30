@@ -1,0 +1,53 @@
+       1 METPREP    W03 MPCARD  : OSMIX only: LOCATION keywd on METPREP path was processed to obtain time zone adjustment (  0).
+         JOB        I19  SETUP  : "END OF FILE" ON UNIT  5 AFTER RECORD #  18
+         JOB        I27 OSTEST  : Minimum and maximum ONSITE height level indices derived from data file are:    1   1
+         METPREP    W29 MPTEST  : ERROR: Insufficient ONSITE data for SBL calcuations!
+         METPREP    W29 MPTEST  :    OSSKY, NRAD, INSO, BULKRN:    F     F     T     F
+         METPREP    W70  MPMET  : GMT-to-LST conversion looks suspect:   0
+         METPREP    I81 FNDCOMDT: ASOS commission date NOT found for WBAN =      0; of Call_ID =
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  01
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  01
+  170712 METPREP    I78  MPPBL  : CCVR missing; no SBL estimates for hour:  02
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  03
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  03
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  04
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  04
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  05
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  05
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  06
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  06
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  07
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  07
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  08
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  08
+  170712 METPREP    I78  MPPBL  : CCVR missing; no SBL estimates for hour:  09
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  10
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  10
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  11
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  11
+  170712 METPREP    I80  SUBST  : Ref level for wind below 20*Z0 for hour:  12
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  13
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  13
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  14
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  14
+  170712 METPREP    I80  SUBST  : Ref level for wind below 20*Z0 for hour:  15
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  16
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  16
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  17
+  170712 METPREP    I71  MPPBL  : No estimate for insolation due to missing sky cover for hour:  17
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  18
+  170712 METPREP    I71  MPPBL  : No estimate for insolation due to missing sky cover for hour:  18
+  170712 METPREP    I80  SUBST  : Ref level for wind below 20*Z0 for hour:  19
+  170712 METPREP    I71  MPPBL  : No estimate for insolation due to missing sky cover for hour:  19
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  20
+  170712 METPREP    I71  MPPBL  : No estimate for insolation due to missing sky cover for hour:  20
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  21
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  21
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  22
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  22
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  23
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  23
+  170712 METPREP    I71  SUBST  : No ref wind (no SUBNWS option) for hour:  24
+  170712 METPREP    I90  MPPBL  : Missing TEMP substitution made for hour:  24
+  170712 METPREP    I71  MPPBL  : Calm wind - No BL calculations for hour:  24
+       1 METPREP    I79  FETCH  : EOF reached on input data file after 000000

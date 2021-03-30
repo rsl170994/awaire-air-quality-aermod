@@ -1,0 +1,133 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 1                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: S1.MSG
+     Summary (this file): S1.RPT
+
+
+ 2.  Upper Air Data  
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        00001       22.90S            43.72W               0              0.0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          QUALITY ASSESSMENT ONLY                    
+
+          Extract Output-    OPEN: CASO_1.DAT
+          QA Output     -    OPEN: ONSITE.OQA
+
+          The Extract Dates Are:    Starting: 12-JUL-2017
+                                      Ending: 12-JUL-2017
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 1                          Page   2
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+
+                        **** SUMMARY OF THE QA AUDIT ****
+
+     THERE IS NO AUDIT TRAIL FOR SITE SCALARS
+
+
+ SITE VECTORS         |------VIOLATION SUMMARY------|   |-----TEST VALUES-----|
+               TOTAL     #     LOWER  UPPER      %      MISSING   LOWER   UPPER
+               # OBS  MISSING  BOUND  BOUND  ACCEPTED     FLAG    BOUND   BOUND
+     10.00 M
+       TT        24        0      0      0    100.00       99.0,  -30.0,   40.0
+       WD        24        0      0      0    100.00      999.0,    0.0,  360.0
+       WS        24       19      0      0     20.83       99.0,    0.0,   50.0
+
+     THIS CONCLUDES THE AUDIT TRAIL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 1                          Page   3
+
+                    THE FOLLOWING ON-SITE VALUES ARE IN EFFECT
+
+
+ Number of OBS/HOUR: 
+
+     1
+
+
+ Threshold wind speed (m/s): 
+
+    0.30
+
+
+ Heights for tower data (m), based on HTnn fields in data file: 
+
+   10.00
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 1                          Page   4
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+                     EXTRACT AND/OR QA THE METEOROLOGICAL DATA
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       5       0       0       0       0       0       6
+
+  ONSITE    
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       2       0       0       2
+    I      0       0       0       0       0       1       0       0       1
+    Q      0       0       0       0       0      19       0       0      19
+       ------------------------------------------------------------------------
+           0       1       5       0       0      22       0       0      28
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+       1 ONSITE     W52 OSFILL  : Some REALs do not have decimals;  Extracted data should be verified. NumVar = 2; NumDec = 1
+       1 ONSITE     W52 OSFILL  :  Read#  1;  Data: 12  7 17  0  180.0     0

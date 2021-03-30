@@ -1,0 +1,26 @@
+JOB
+
+    REPORT    S1.RPT
+    MESSAGES  S1.MSG
+
+ONSITE
+    DATA      caso_1.dat
+    QAOUT     ONSITE.OQA
+
+    XDATES    17/7/12  TO  17/7/12
+
+    LOCATION  00001  22.90S 43.72W  0  0
+
+    READ 1 OSDY OSMO OSYR OSHR MHGT INSO 
+    READ 2                     HT01 SA01 SW01 TT01 WD01 WS01
+
+    FORMAT 1 (4(I2,1X),F6.1,1X,F5.0)
+    FORMAT 2 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+
+
+**    RANGE TT -30 < 40 -99
+**    RANGE SA 0 <= 95  -99
+**    RANGE WS 0 < 50   -999
+**    RANGE WD 0 <= 360 -999
+
+    THRESHOLD  0.3

@@ -1,0 +1,13 @@
+** AERMAP - VERSION 08280
+**  AERMAP TEST INPUT FILE
+**  TESTING - LOVETT
+** A total of       1  NED files were used
+** A total of      11  receptors were processed
+** DOMAINXY  581000.0 4567000.0 18 588000.0 4572000.0 18
+** ANCHORXY  0.0      0.0     580000 4500000 18 1
+** TERRHGTS  EXTRACT
+  
+RE ELEVUNIT METERS
+RE GRIDCART     CG1 STA
+                    XYINC -7000. 29 500. -7000. 29 500.
+RE GRIDCART     CG1 END

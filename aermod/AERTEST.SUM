@@ -1,0 +1,303 @@
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   1
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                            ***     MODEL SETUP OPTIONS SUMMARY       ***
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ **Model Is Setup For Calculation of Average CONCentration Values.
+  
+   --  DEPOSITION LOGIC  --
+ **NO GAS DEPOSITION Data Provided.
+ **NO PARTICLE DEPOSITION Data Provided.
+ **Model Uses NO DRY DEPLETION.  DRYDPLT  =  F
+ **Model Uses NO WET DEPLETION.  WETDPLT  =  F
+  
+ **Model Uses RURAL Dispersion Only.
+  
+ **Model Allows User-Specified Options:
+         1. Stack-tip Downwash.
+         2. Model Assumes Receptors on FLAT Terrain.
+         3. Use Calms Processing Routine.
+         4. Use Missing Data Processing Routine.
+         5. No Exponential Decay.
+  
+ **Other Options Specified:
+         TEMP_Sub - Meteorological data includes TEMP substitutions
+  
+ **Model Assumes No FLAGPOLE Receptor Heights.
+  
+ **The User Specified a Pollutant Type of:  SO2     
+
+ **NOTE: Special processing requirements applicable for the 1-hour SO2 NAAQS have been disabled!!!
+         User has specified non-standard averaging periods:    3-HR   8-HR  24-HR         
+         High ranked 1-hour values are NOT averaged across the number of years modeled, and
+         complete years of data are NOT required.
+  
+ **Model Calculates  4 Short Term Average(s) of:   1-HR   3-HR   8-HR  24-HR
+     and Calculates PERIOD Averages
+  
+ **This Run Includes:      1 Source(s);       1 Source Group(s); and     841 Receptor(s)
+
+                with:      1 POINT(s), including
+                           0 POINTCAP(s) and      0 POINTHOR(s)
+                 and:      0 VOLUME source(s)
+                 and:      0 AREA type source(s)
+                 and:      0 LINE source(s)
+                 and:      0 RLINE/RLINEXT source(s)
+                 and:      0 OPENPIT source(s)
+                 and:      0 BUOYANT LINE source(s) with      0 line(s)
+
+  
+ **Model Set To Continue RUNning After the Setup Testing.
+
+ **The AERMET Input Meteorological Data Version Date:  19191
+  
+ **Output Options Selected:
+          Model Outputs Tables of PERIOD Averages by Receptor
+          Model Outputs Tables of Highest Short Term Values by Receptor (RECTABLE Keyword)
+          Model Outputs External File(s) of Concurrent Values for Postprocessing (POSTFILE Keyword)
+          Model Outputs External File(s) of High Values for Plotting (PLOTFILE Keyword)
+          Model Outputs Separate Summary File of High Ranked Values (SUMMFILE Keyword)
+  
+ **NOTE:  The Following Flags May Appear Following CONC Values:  c for Calm Hours
+                                                                 m for Missing Hours
+                                                                 b for Both Calm and Missing Hours
+  
+ **Misc. Inputs:  Base Elev. for Pot. Temp. Profile (m MSL) =     0.00 ;  Decay Coef. =    0.000     ;  Rot. Angle =     0.0
+                  Emission Units = GRAMS/SEC                                ;  Emission Rate Unit Factor =   0.10000E+07
+                  Output Units   = MICROGRAMS/M**3                         
+  
+ **Approximate Storage Requirements of Model =      3.7 MB of RAM.
+  
+ **Input Runstream File:          aermod.inp                                                                                      
+ **Output Print File:             aermod.out                                                                                      
+
+ **File for Summary of Results:   AERTEST.SUM                                                                                     
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   2
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                            *** METEOROLOGICAL DAYS SELECTED FOR PROCESSING ***
+                                                               (1=YES; 0=NO)
+
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1   1 1 1 1 1 1 1 1 1 1
+            1 1 1 1 1 1 1 1 1 1   1 1 1 1 1
+
+                NOTE:  METEOROLOGICAL DATA ACTUALLY PROCESSED WILL ALSO DEPEND ON WHAT IS INCLUDED IN THE DATA FILE.
+
+
+
+                                  *** UPPER BOUND OF FIRST THROUGH FIFTH WIND SPEED CATEGORIES ***
+                                                            (METERS/SEC)
+
+                                                 1.54,   3.09,   5.14,   8.23,  10.80,
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   3
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                    *** UP TO THE FIRST 24 HOURS OF METEOROLOGICAL DATA ***
+
+   Surface file:   MP.SFC                                                                             Met Version:  19191
+   Profile file:   MP.PFL                                                                          
+   Surface format: FREE                                                                                                     
+   Profile format: FREE                                                                                                     
+   Surface station no.:    99999                  Upper air station no.:    99999
+                  Name: TERNIUM                                    Name: TERNIUM                                 
+                  Year:   2018                                     Year:   2018
+
+ First 24 hours of scalar data
+ YR MO DY JDY HR     H0     U*     W*  DT/DZ ZICNV ZIMCH  M-O LEN    Z0  BOWEN ALBEDO  REF WS   WD     HT  REF TA     HT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 17 07 12 193 01 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  292.1   10.0
+ 17 07 12 193 02 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.25   2.00   1.00    1.50   60.   10.0  291.1   10.0
+ 17 07 12 193 03 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  290.1   10.0
+ 17 07 12 193 04 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  290.1   10.0
+ 17 07 12 193 05 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  289.1   10.0
+ 17 07 12 193 06 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  289.1   10.0
+ 17 07 12 193 07 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  289.1   10.0
+ 17 07 12 193 08 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  289.1   10.0
+ 17 07 12 193 09 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.25   2.00   1.00    2.00   50.   10.0  288.1   10.0
+ 17 07 12 193 10 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  288.1   10.0
+ 17 07 12 193 11   34.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.37  999.00  999.   -9.0  290.1   10.0
+ 17 07 12 193 12   83.5  0.638  0.822  0.005  240. 1223.   -281.2  1.00   2.00   0.22    3.50  220.   10.0  294.1   10.0
+ 17 07 12 193 13   89.9 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.18  999.00  999.   -9.0  297.1   10.0
+ 17 07 12 193 14   73.9 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.16  999.00  999.   -9.0  296.1   10.0
+ 17 07 12 193 15   50.8  0.628  0.596  0.005  150. 1194.   -439.7  1.00   2.00   0.16    3.50  220.   10.0  296.1   10.0
+ 17 07 12 193 16   15.2 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.16  999.00  999.   -9.0  296.1   10.0
+ 17 07 12 193 17 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.16  999.00  999.   -9.0  296.1   10.0
+ 17 07 12 193 18 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.18  999.00  999.   -9.0  295.1   10.0
+ 17 07 12 193 19 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  1.00   2.00   0.22    4.00  200.   10.0  295.1   10.0
+ 17 07 12 193 20 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   0.38  999.00  999.   -9.0  294.1   10.0
+ 17 07 12 193 21 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  294.1   10.0
+ 17 07 12 193 22 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  294.1   10.0
+ 17 07 12 193 23 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  294.1   10.0
+ 17 07 12 193 24 -999.0 -9.000 -9.000 -9.000 -999. -999. -99999.0  0.62   2.00   1.00  999.00  999.   -9.0  294.1   10.0
+
+
+ First hour of profile data
+ YR MO DY HR HEIGHT F  WDIR    WSPD AMB_TMP sigmaA  sigmaW  sigmaV
+ 17 07 12 01   10.0 1   99.  -99.00   292.2   99.0  -99.00  -99.00
+
+ F indicates top of profile (=1) or below (=0)
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   4
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                        *** THE SUMMARY OF MAXIMUM PERIOD (    24 HRS) RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                                                                             NETWORK
+GROUP ID                       AVERAGE CONC                RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)  OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ALL       1ST HIGHEST VALUE IS       6.60659 AT (    1000.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+          2ND HIGHEST VALUE IS       5.50142 AT (    1000.00,     1500.00,     0.00,     0.00,    0.00)  GC  CG1     
+          3RD HIGHEST VALUE IS       5.11011 AT (    1500.00,     1500.00,     0.00,     0.00,    0.00)  GC  CG1     
+          4TH HIGHEST VALUE IS       4.59631 AT (    1500.00,     2000.00,     0.00,     0.00,    0.00)  GC  CG1     
+          5TH HIGHEST VALUE IS       3.68026 AT (    2000.00,     2000.00,     0.00,     0.00,    0.00)  GC  CG1     
+          6TH HIGHEST VALUE IS       3.50213 AT (    2000.00,     2500.00,     0.00,     0.00,    0.00)  GC  CG1     
+          7TH HIGHEST VALUE IS       2.83725 AT (     500.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+          8TH HIGHEST VALUE IS       2.71977 AT (    2500.00,     2500.00,     0.00,     0.00,    0.00)  GC  CG1     
+          9TH HIGHEST VALUE IS       2.68444 AT (    1500.00,     2500.00,     0.00,     0.00,    0.00)  GC  CG1     
+         10TH HIGHEST VALUE IS       2.68156 AT (    2500.00,     3000.00,     0.00,     0.00,    0.00)  GC  CG1     
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   5
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  1-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       6.99847  ON 17071212: AT (    1000.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   6
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  3-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       2.33282m ON 17071212: AT (    1000.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   7
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST  8-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       2.20220m ON 17071216: AT (    1000.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   8
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+                                                *** THE SUMMARY OF HIGHEST 24-HR RESULTS ***
+
+
+                                    ** CONC OF SO2      IN MICROGRAMS/M**3                          **
+
+                                                      DATE                                                                    NETWORK
+GROUP ID                          AVERAGE CONC     (YYMMDDHH)             RECEPTOR  (XR, YR, ZELEV, ZHILL, ZFLAG)    OF TYPE  GRID-ID
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  
+ALL      HIGH   1ST HIGH VALUE IS       0.73407m ON 17071224: AT (    1000.00,     1000.00,     0.00,     0.00,    0.00)  GC  CG1     
+
+
+ *** RECEPTOR TYPES:  GC = GRIDCART
+                      GP = GRIDPOLR
+                      DC = DISCCART
+                      DP = DISCPOLR
+ *** AERMOD - VERSION  19191 ***   *** Ternium                                                              ***        03/12/21
+ *** AERMET - VERSION  19191 ***   ***                                                                      ***        12:06:42
+                                                                                                                       PAGE   9
+ *** MODELOPTs:    NonDFAULT  CONC  FLAT  RURAL
+
+ *** Message Summary : AERMOD Model Execution ***
+
+  --------- Summary of Total Messages --------
+  
+ A Total of            0 Fatal Error Message(s)
+ A Total of            8 Warning Message(s)
+ A Total of           22 Informational Message(s)
+
+ A Total of           24 Hours Were Processed
+
+ A Total of            0 Calm Hours Identified
+
+ A Total of           22 Missing Hours Identified ( 91.67 Percent)
+
+ CAUTION!:  Number of Missing Hours Exceeds 10 Percent of Total!
+            Data May Not Be Acceptable for Regulatory Applications.
+            See Section 5.3.2 of "Meteorological Monitoring Guidance
+            for Regulatory Modeling Applications" (EPA-454/R-99-005).
+  
+  
+    ******** FATAL ERROR MESSAGES ******** 
+               ***  NONE  ***         
+  
+  
+    ********   WARNING MESSAGES   ******** 
+ CO W361       7       COCARD: Multiyear PERIOD/ANNUAL values for NO2/SO2 require MULTYEAR Opt
+ CO W362       7       COCARD: Multiyear 1h NO2/SO2 processing not applicable for     3-hr Ave
+ CO W362       7       COCARD: Multiyear 1h NO2/SO2 processing not applicable for     8-hr Ave
+ CO W362       7       COCARD: Multiyear 1h NO2/SO2 processing not applicable for    24-hr Ave
+ ME W531      29       MEOPEN: CAUTION! Met Station ID Missing from SURFFILE for      SURFDATA
+ ME W531      29       MEOPEN: CAUTION! Met Station ID Missing from SURFFILE for      UAIRDATA
+ ME W530      29       MEOPEN: CAUTION! Met Station ID Mismatch with SURFFILE for     SITEDATA
+ MX W492       1       METEXT: SURFDATA YR .NE. 1st YR of file, adj to match file StartYR 2017

@@ -1,0 +1,28 @@
+         JOB        I19  SETUP  : "END OF FILE" ON UNIT  5 AFTER RECORD #  25
+         JOB        I25   TEST  : SUMMARY: NO DATA EXTRACTION FOR UPPERAIR
+         JOB        I25   TEST  : SUMMARY: NO DATA QA FOR UPPERAIR
+         JOB        I26   TEST  : SUMMARY: NO DATA EXTRACTION FOR SURFACE
+         JOB        I26   TEST  : SUMMARY: NO DATA QA FOR SURFACE
+         JOB        I27 OSTEST  : Minimum and maximum ONSITE height level indices derived from data file are:    1   1
+       1 ONSITE     W52 OSFILL  : Some REALs do not have decimals;  Extracted data should be verified. NumVar = 2; NumDec = 1
+       1 ONSITE     W52 OSFILL  :  Read#  1;  Data: 12  7 17  0  180.0     0
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  00; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  01; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  03; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  04; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  05; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  06; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  07; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  08; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  10; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  11; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  13; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  14; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  16; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  17; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  18; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  20; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  21; LEVEL :  1
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  22; LEVEL :  1
+         ONSITE     I59 OSFILL  : EOF for ONSITE data after observation #:      49
+  170712 ONSITE     Q59 OSQACK  : WS   missing for HR:  23; LEVEL :  1

@@ -1,0 +1,36 @@
+CO STARTING                                                                                                                         
+   TITLEONE Ternium
+   MODELOPT  CONC   FLAT
+   AVERTIME  1  3  8  24  PERIOD                                                                                                          
+   POLLUTID  SO2                                                                                                                    
+   RUNORNOT  RUN
+CO FINISHED                                                                                                                         
+                                                                                                                                    
+SO STARTING
+   ELEVUNIT  METERS
+   LOCATION  STACK1  POINT  0.0   0.0   0.0                                                                                                                                   
+** Point Source       QS      HS     TS    VS    DS
+** Parameters:       ----    ----   ----  ----   ---
+   SRCPARAM  STACK1  27.78   170.00  423.  15.2   3.
+   SRCGROUP  ALL                                                                                                                    
+SO FINISHED                                                                                                                         
+                                                                                                                                    
+RE STARTING
+   INCLUDED ternium_rec.dat
+RE FINISHED                                                                                                                         
+                                                                                                                                    
+ME STARTING                                                                                                                         
+   SURFFILE  MP.SFC
+   PROFFILE  MP.PFL                                                                                              
+   SURFDATA  99999  2018  Ternium
+   UAIRDATA  99999  2018  Ternium
+   SITEDATA  99999  2018  Ternium
+   PROFBASE  0.0  METERS
+ME FINISHED                                                                                                                         
+                                                                                                                                    
+OU STARTING
+   RECTABLE ALLAVE FIRST             
+   SUMMFILE  AERTEST.SUM                                                                                         
+   PLOTFILE  1  ALL  FIRST  AERTEST_01H.PLT
+   POSTFILE  1  ALL  PLOT   AERTEST_01H.PST 
+OU FINISHED

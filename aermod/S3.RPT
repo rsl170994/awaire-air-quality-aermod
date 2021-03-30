@@ -1,0 +1,170 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 3                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: S3.MSG
+     Summary (this file): S3.RPT
+
+
+ 2.  Upper Air Data  
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment   Elev. (m)
+        00001       22.90S            43.72W               0              0.0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 3                          Page   2
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+    1.  Input/Output Files
+
+        S3.RPT                                               OPENED SUCCESSFULLY
+        S3.MSG                                               OPENED SUCCESSFULLY
+        MR.MET                                               OPENED SUCCESSFULLY
+        MP.SFC                                               OPENED SUCCESSFULLY
+        MP.PFL                                               OPENED SUCCESSFULLY
+
+    2.  Dispersion Model for which Data Are Processed
+
+          AERMOD
+
+          The Processed Dates Are:    Starting: 12-JUL-2017
+                                        Ending: 12-JUL-2017
+
+          Based on the MERGE file header records.
+
+    3.  Processing Options
+
+           Process       Scheme         Description
+           -------       ------         -----------
+        WIND DIRECTION   RANDOM      NWS wind directions are RANDOMIZED                          
+        CLOUD COVER      NO_SUB      Missing CCVR substitutions NOT included                     
+        TEMPERATURE      TEMP_Sub    Missing TEMP substitutions ARE included                     
+        SBL PROCESSING   UCALST      The default (Holtslag) method is used                       
+        ASOS ADJUSTMENT  ASOS_ADJ    ASOS wind speeds, if present, ARE adjusted for truncation   
+        SDG SELECTION    OSMIX       No UPPERAIR data available - ONSITE mixing heights used     
+        REFERENCE LEVEL              NWS WIND & TEMP data NOT SUBSTITUTED for missing ONSITE data
+
+    4.  Locations of Meteorological Data 
+
+         Data           Site     Longitude   Latitude
+        Pathway          ID      (degrees)   (degrees)
+        -------         ----     ---------   ---------
+        ONSITE          00001      43.72W      22.90S
+
+    5.  Primary Site Surface Characteristics 
+
+          User Inputs Varied by: Annual
+
+                  Wind Sector               Bowen   Roughness
+          Month   Start   End    Albedo     Ratio   Length (m)
+          ----------------------------------------------------
+            1      270.   90.      0.15      2.00     0.2500
+            2      270.   90.      0.15      2.00     0.2500
+            3      270.   90.      0.15      2.00     0.2500
+            4      270.   90.      0.15      2.00     0.2500
+            5      270.   90.      0.15      2.00     0.2500
+            6      270.   90.      0.15      2.00     0.2500
+            7      270.   90.      0.15      2.00     0.2500
+            8      270.   90.      0.15      2.00     0.2500
+            9      270.   90.      0.15      2.00     0.2500
+           10      270.   90.      0.15      2.00     0.2500
+           11      270.   90.      0.15      2.00     0.2500
+           12      270.   90.      0.15      2.00     0.2500
+
+            1       90.  270.      0.15      2.00     1.0000
+            2       90.  270.      0.15      2.00     1.0000
+            3       90.  270.      0.15      2.00     1.0000
+            4       90.  270.      0.15      2.00     1.0000
+            5       90.  270.      0.15      2.00     1.0000
+            6       90.  270.      0.15      2.00     1.0000
+            7       90.  270.      0.15      2.00     1.0000
+            8       90.  270.      0.15      2.00     1.0000
+            9       90.  270.      0.15      2.00     1.0000
+           10       90.  270.      0.15      2.00     1.0000
+           11       90.  270.      0.15      2.00     1.0000
+           12       90.  270.      0.15      2.00     1.0000
+
+    6.  Input File(s) for   AERMOD
+
+          Surface Meteorology:  MP.SFC
+          Profile Data       :  MP.PFL
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 3                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+               PROCESSING METEOROLOGICAL DATA FOR DISPERSION MODELING
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       1       0       0       0       0       0       2
+
+  METPREP   
+    E      0       0       0       0       0       0       0       0       0
+    W      1       0       2       0       0       0       0       1       4
+    I      0       0       0       0       0       0       0      46      46
+    T      0       0       0       0       0       0       0       0       0
+       ------------------------------------------------------------------------
+           1       1       3       0       0       0       0      47      52
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+       1 METPREP    W03 MPCARD  : OSMIX only: LOCATION keywd on METPREP path was processed to obtain time zone adjustment (  0).
+         METPREP    W29 MPTEST  : ERROR: Insufficient ONSITE data for SBL calcuations!
+         METPREP    W29 MPTEST  :    OSSKY, NRAD, INSO, BULKRN:    F     F     T     F
+         METPREP    W70  MPMET  : GMT-to-LST conversion looks suspect:   0
+
+
+ The number of CALM winds  encountered is:      0
+ The number of VARIABLE WD encountered is:      0
+ The number of miss TEMP substitutions is:      1

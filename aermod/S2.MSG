@@ -1,0 +1,12 @@
+         JOB        I19  SETUP  : "END OF FILE" ON UNIT  5 AFTER RECORD #  10
+         JOB        I25   TEST  : SUMMARY: NO DATA EXTRACTION FOR UPPERAIR
+         JOB        I25   TEST  : SUMMARY: NO DATA QA FOR UPPERAIR
+         JOB        I26   TEST  : SUMMARY: NO DATA EXTRACTION FOR SURFACE
+         JOB        I26   TEST  : SUMMARY: NO DATA QA FOR SURFACE
+         JOB        I27 OSTEST  : Minimum and maximum ONSITE height level indices derived from data file are:    1   1
+         JOB        I27   TEST  : SUMMARY: NO DATA QA FOR ONSITE
+         JOB        I25   TEST  : SUMMARY: NO UPPERAIR data to merge
+         JOB        I26   TEST  : SUMMARY: NO SURFACE data to merge
+         MERGE      W69 MRPATH  : MERGING ON-SITE DATA ONLY
+             22 HEADERS PROCESSED FROM INPUT FILES
+         MERGE      I59 OSFILL2 : EOF for ONSITE data after observation #:      24

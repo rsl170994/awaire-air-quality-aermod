@@ -1,0 +1,61 @@
+JOB
+
+    REPORT    S1.RPT
+    MESSAGES  S1.MSG
+
+ONSITE
+    DATA      caso_3.dat
+    QAOUT     ONSITE.OQA
+
+    XDATES    17/7/12  TO  17/7/12
+
+    LOCATION  00001  22.90S 43.72W  0  10
+
+    READ 1 OSDY OSMO OSYR OSHR MHGT INSO 
+    READ 2                      HT01 SA01 SW01 TT01 WD01 WS01
+    READ 3                      HT02 SA02 SW01 TT02 WD02 WS02
+    READ 4                      HT03 SA03 SW03 TT03 WD03 WS03
+    READ 5                      HT04 SA04 SW04 TT04 WD04 WS04
+    READ 6                      HT05 SA05 SW05 TT05 WD05 WS05
+    READ 7                      HT06 SA06 SW06 TT06 WD06 WS06
+    READ 8                      HT07 SA07 SW07 TT07 WD07 WS07
+    READ 9                      HT08 SA08 SW08 TT08 WD08 WS08
+    READ 10                     HT09 SA09 SW09 TT09 WD09 WS09
+    READ 11                     HT10 SA10 SW10 TT10 WD10 WS10
+    READ 12                     HT11 SA11 SW11 TT11 WD11 WS11
+    READ 13                     HT12 SA12 SW12 TT12 WD12 WS12
+    READ 14                     HT13 SA13 SW13 TT13 WD13 WS13
+    READ 15                     HT14 SA14 SW14 TT14 WD14 WS14
+    READ 16                     HT15 SA15 SW15 TT15 WD15 WS15
+    READ 17                     HT16 SA16 SW16 TT16 WD16 WS16
+    READ 18                     HT17 SA17 SW17 TT17 WD17 WS17
+    READ 19                     HT18 SA18 SW18 TT18 WD18 WS18
+    READ 20                     HT19 SA19 SW19 TT19 WD19 WS19
+
+    FORMAT 1 (4(I2,1X),F6.1,1X,F5.0)
+    FORMAT 2 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 3 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 4 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 5 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 6 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 7 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 8 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 9 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 10 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 11 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 12 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 13 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 14 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 15 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 16 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 17 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 18 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 19 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 20 (12X,        F6.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+
+**    RANGE TT -30 < 40 -99
+**    RANGE SA 0 <= 95  -99
+**    RANGE WS 0 < 50   -999
+**    RANGE WD 0 <= 360 -999
+
+    THRESHOLD  0.3

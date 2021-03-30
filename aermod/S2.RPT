@@ -1,0 +1,108 @@
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 2                          Page   1
+
+              ********************************************************
+              ***        AERMET Setup Finished Successfully        ***
+              ********************************************************
+
+ 1.  Job File Names
+
+     Listing of Messages: S2.MSG
+     Summary (this file): S2.RPT
+
+
+ 2.  Upper Air Data  
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 3.  NWS Surface Data
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          NONE, NO DATA TO BE PROCESSED ON THIS PATH 
+
+
+
+ 4.  On-site Data    
+
+      Site ID    Latitude(deg.)   Longitude(deg.)   Time Adjustment
+        00001       22.90S            43.72W               0
+
+     AERMET Has Determined That Processing For This Pathway Includes:
+          MERGE ONLY                                 
+
+          QA Output     -    OPEN: ONSITE.OQA
+
+
+ 5.  Merged Data
+          Merge Output  -    OPEN: MR.MET
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 2                          Page   2
+
+                         Merging the Meteorological Data
+
+
+          The Merged Dates Are:    Starting: 12-JUL-2017
+                                     Ending: 12-JUL-2017
+
+                   ***** Daily Output Statistics *****
+         2017 MO/DY:  7/12
+ NWS  Upper Air  Sdgs   0
+ NWS Sfc Observations   0
+ On-site Observations  23
+ Ave 1-min ASOS Winds   0
+
+
+ TOTAL OBSERVATIONS READ:
+    Upper Air Soundings :      0
+    NWS Sfc Observations:      0
+    On-site Observations:     24
+    1-min ASOS Wind Data:      0
+
+                   ***** MERGE PROCESS COMPLETED *****
+        AERMET, A Meteorological Processor for the AERMOD Dispersion Model
+                                   Version  19191
+
+                     Data Processed on 12-MAR-2021 at 12:06:42
+
+                                      Stage 2                          Page   3
+
+              ********************************************************
+              ***   AERMET Data Processing Finished Successfully   ***
+              ********************************************************
+
+
+                      **** AERMET MESSAGE SUMMARY TABLE ****
+
+          0- 9   10-19   20-29   30-39   40-49   50-59   60-69   70-89   TOTAL
+       ------------------------------------------------------------------------
+
+  JOB       
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       0       0       0
+    I      0       1       8       0       0       0       0       0       9
+
+  MERGE     
+    E      0       0       0       0       0       0       0       0       0
+    W      0       0       0       0       0       0       1       0       1
+    I      0       0       0       0       0       1       0       0       1
+       ------------------------------------------------------------------------
+           0       1       8       0       0       1       1       0      11
+
+        ****    ERROR MESSAGES    ****
+
+               ---  NONE  ---
+
+
+        ****   WARNING MESSAGES   ****
+         MERGE      W69 MRPATH  : MERGING ON-SITE DATA ONLY

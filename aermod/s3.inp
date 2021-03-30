@@ -1,0 +1,18 @@
+JOB
+    REPORT    S3.RPT
+    MESSAGES  S3.MSG
+
+METPREP
+  DATA      MR.MET
+
+  OUTPUT    MP.SFC
+  PROFILE   MP.PFL
+
+  LOCATION  Ternium 43.25W  23.82S 0 6
+  
+  FREQ_SECT ANNUAL 2
+  SECTOR    1    270     90
+  SECTOR    2    90     270
+  SITE_CHAR 1 1  0.15  2.0  0.25
+  SITE_CHAR 1 2  0.15  2.0  1.00
+

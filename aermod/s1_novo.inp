@@ -1,0 +1,35 @@
+JOB
+
+    REPORT    S1.RPT
+    MESSAGES  S1.MSG
+
+ONSITE
+    DATA      sodar.dat
+    QAOUT     ONSITE.OQA
+
+    XDATES    20/1/25  TO  20/1/25
+
+    LOCATION  00001  23.82S 43.25W  0  10
+
+    READ 1 OSDY OSMO OSYR OSHR MHGT INSO 
+    READ 2                     HT01 SA01 SW01 TT01 WD01 WS01
+    READ 3                     HT02 SA02 SW02 TT02 WD02 WS02
+    READ 4                     HT03 SA03 SW03 TT03 WD03 WS03
+    READ 5                     HT04 SA04 SW04 TT04 WD04 WS04
+    READ 6                     HT05 SA05 SW05 TT05 WD05 WS05
+    READ 7                     HT06 SA06 SW06 TT06 WD06 WS06
+
+    FORMAT 1 (4(I2,1X),4X,F5.1,1X,F5.1)
+    FORMAT 2 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 3 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 4 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 5 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 6 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+    FORMAT 7 (16X,        F5.1,1X,F5.1,1X,F7.3,1X,F6.2,1X,F7.2,1X,F7.2)
+
+**    RANGE TT -30 < 40 -99
+**    RANGE SA 0 <= 95  -99
+    RANGE WS 0 < 50   -999
+    RANGE WD 0 <= 360 -999
+
+    THRESHOLD  0.3
