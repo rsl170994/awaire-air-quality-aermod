@@ -1,4 +1,4 @@
-touch test.txt
+touch test_file.txt
 ./aermet.exe s1.inp
 ./aermet.exe s2.inp
 ./aermet.exe s3.inp
