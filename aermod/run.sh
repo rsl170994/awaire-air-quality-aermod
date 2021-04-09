@@ -1,6 +1,6 @@
 echo $1
-arg1= '$1'
-arg2= $1
+arg1='$1'
+arg2=$1
 echo $arg1
 echo $arg2
 python3.9 /var/www/awaire-air-quality-aermod/aermod_input_creator/aermod_input_creator_r01.py '$1' > input_creator_log.txt
