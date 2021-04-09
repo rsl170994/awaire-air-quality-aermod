@@ -14,7 +14,7 @@ caminho = 'G:/Meu Drive/aermod_input_creator/'
 
 #--------------------------------------------------------------------------------------------------
 # x = '2021-03-30T02:29:16+00:00' #datetime.datetime.now() RETIRAR A DATA ENTRE PARÊNTESES E COLOCAR A PARTE COMENTADA
-x = sys.argv[1]  #PEGENDO A DATA HORA INFORMADA PELO LINHA DE COMANDO. A DATA HORA DEVE SER INFORMADA ENTRE ''. EX: '2021-03-30T02:29:16+00:00'
+x = str(sys.argv[1])  #PEGENDO A DATA HORA INFORMADA PELO LINHA DE COMANDO. A DATA HORA DEVE SER INFORMADA ENTRE ''. EX: '2021-03-30T02:29:16+00:00'
 x = datetime.datetime.strptime(x, '%Y-%m-%dT%H:%M:%S+00:00') #APAGAR A LINHA NA HORA DE IMPLEMENTAR
 x = x.timetuple()
 ano = x.tm_year
